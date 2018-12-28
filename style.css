@@ -1,0 +1,72 @@
+ body {
+
+    overflow-x: hidden;  
+    color: #505965;
+    font-family: 'Franklin Gothic Medium', sans-serif;
+ }
+.navbar {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .9rem;
+    letter-spacing: .1rem;
+    background: rgba(0,0,0,0.6)!important;
+}
+.navbar-brand {
+    height: 2rem;
+}
+.navbar-nav li {
+    padding-right: .7rem;
+}
+.navbar-dark .navbar-nav .nav-link{
+    color : white;
+    padding-top:.8rm;
+}
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover
+{
+    color : #1ebba3;  
+}
+/* --- landing page css ----- */
+
+.home-inner{
+    background-image: url(assets/Tidal-970-80.jpg);
+}
+
+.caption {
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    top:30%;
+    z-index: 1;
+    margin-left: 15px;
+    color:white;
+    text-transform: uppercase;
+}
+
+.caption h1{
+    font-size: 3.8rem;
+    font-weight: 700;
+    letter-spacing : .3rem;
+    margin-left:15px;
+    text-shadow: 1rem .1rem .8rem black;
+    padding-bottom: 1.6rem
+
+}
+
+.caption h3{
+    font-size: 2rem; 
+    text-shadow: .1rem .1rem .5rem black;
+    margin-left:15px;
+    padding-bottom: 1.6rem
+}
+
+.btn-lg {
+    border-width: medium;
+    border-radius: 0;
+    padding: .6rem 1.3rem;
+    left:15px;
+
+
+}
+
+
